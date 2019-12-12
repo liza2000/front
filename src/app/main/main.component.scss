@@ -1,0 +1,107 @@
+
+canvas {
+  margin-top: 5px;
+}
+
+.container-desktop{
+  margin: 5% auto;
+  min-width: max-content;
+  min-height: 310px;
+  width: max-content;
+  height: max-content;
+  background-color: #5b80e7;
+  border: thick solid #e743ce;
+  #form, #canvas{
+    float: left;
+    margin: 0 30px;
+  }
+  #form{
+    height: 310px;
+    position: center;
+    width: 200px;
+    .formdiv{
+      margin: 20px;
+    }
+    .bdiv{
+      margin: 30px auto ;
+    }
+    .warndiv{
+      height: 30px;
+    }
+  }
+  #canvas{
+     width: 300px;
+     margin: 0;
+   }
+  label>*, button{
+    width: 50%;
+    border-radius: 5px;
+  }
+  label {
+    font-size: 120%;
+    margin: 30px 0;
+  }
+}
+
+.container-table{
+  background-color: darkcyan;
+  border: thick solid #e743ce;
+  width: max-content;
+  height: max-content;
+  margin: 1% auto;
+
+  #form .warndiv{
+      height: 30px;
+    }
+  .formdiv{
+    margin: 10px;
+  }
+
+  #canvas{
+    width: 300px;
+    margin: 0;
+  }
+  label>*, button{
+    width: 50%;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  label {
+    font-size: 120%;
+  }
+
+}
+
+.container-mobile{
+  background-color: #df97ca;
+  border: thick solid #5b80e7;
+  width: max-content;
+  height: max-content;
+  margin: 1% auto;
+
+  #form .warndiv{
+    height: 30px;
+  }
+  .formdiv{
+    display: inline-block;
+    margin: 10px;
+  }
+
+  #canvas{
+    width: 300px;
+    margin: 0;
+  }
+
+  label>*{
+    width: 50px;
+    border-radius: 5px;
+  }
+  button{
+    border-radius: 5px;
+    margin: 2px;
+  }
+
+  label {
+    font-size: 120%;
+  }
+}

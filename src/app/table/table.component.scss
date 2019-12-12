@@ -1,0 +1,27 @@
+
+table{
+  width: 100%;
+}
+.desktop{
+  margin: 5% auto;
+  width: 600px;
+  background-color: #5b80e7;
+  border: thick solid #e743ce;
+}
+
+.table{
+  margin: 5% auto;
+  width: 400px;
+  background-color: darkcyan;
+  border: thick solid #e743ce;
+}
+
+.mobile{
+  margin: 5% auto;
+  width: max-content;
+  background-color: #df97ca;
+  color: darkcyan;
+  border: thick solid #5b80e7;
+}
+
+
